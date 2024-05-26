@@ -24,7 +24,4 @@ df['daily_vaccinations'] = df['daily_vaccinations'].fillna(0)
 print("\nDataFrame after imputation:")
 print(df.head(30))
 
-output_file_path = '/Users/beyzasenol/Desktop/imputed_vaccinations.csv'
-df.to_csv(output_file_path, index=False)
-
-print(f"Imputed data saved to {output_file_path}")
+df.to_csv(df.to_csv(file_path, index=False))
